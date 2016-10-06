@@ -167,6 +167,12 @@ console.log(generalContainer)
 **/
 
 
+function jump(height){
+	return "You jumped " + height + " feet high!";
+}
+
+console.log(jump(9));
+
 
 /**
 * #7b
@@ -178,3 +184,9 @@ console.log(generalContainer)
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook(ingredient1, ingredient2, recipeName){
+	return ingredient1 + " and " + ingredient2 + " make a " + recipeName + "!";
+}
+
+console.log(cook("Tomatoes", "Cheese", "Pizza"))
+console.log(cook("Bacon", "Swiss", "Sammich"))
